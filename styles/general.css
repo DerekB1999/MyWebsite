@@ -3,9 +3,11 @@ margin: 0;
 }
 
 .mainContainer{
+  width: 100%;
   max-width: 750px;
-  margin: auto;
+  margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 p{

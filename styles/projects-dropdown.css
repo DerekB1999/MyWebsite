@@ -1,12 +1,14 @@
 .projectDropdown{
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   margin: 40px auto;
   text-align: center;
   transition: width 0.25s ease;
+  box-sizing: border-box;
 }
 
 .projectDropdown[open] {
-  width: 650px;
+  max-width: 650px;
 }
 
 .projectDropdown summary {
@@ -32,6 +34,8 @@
   transition: max-height 0.5s ease, margin-top 0.5s ease;
   border-radius: 8px;
   background-color: white;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
 }
 
 .projectDropdown[open] .dropdownContent{
