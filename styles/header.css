@@ -77,3 +77,47 @@
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
   font-weight: bold;
 }
+
+@media (max-width: 600px){
+  .header{
+    grid-template-columns: 1fr;
+    height: auto;
+    row-gap: 12px;
+    padding-bottom: 12px;
+  }
+
+  .nameContainer{
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .firstName, 
+  .lastName{
+    padding-left: 0;
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .links{
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-items: center;
+  }
+
+  .linkedinIcon,
+  .githubIcon{
+    height: 54px;
+  }
+
+  .resumeIcon,
+  .emailIcon{
+    height: 72px;
+  }
+}
