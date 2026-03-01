@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Derek's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/description.css">
+    <link rel="stylesheet" href="styles/projects-dropdown.css">
+  </head>
+  <body>
+    <div class="mainContainer">
+    <header class="header">
+      <div class="nameContainer">
+        <div class="firstName">Derek</div>
+        <div class="lastName">Barbosa</div>
+      </div>
+
+      <div class="links"> <!--Start of links div for the header-->
+        <div class="linkedinIconContainer">
+          <a href="https://www.linkedin.com/in/derek-barbosa"
+          target="_blank">
+            <img class="linkedinIcon" src="images/linkedin.png">
+          </a>
+          <div class="tooltip">LinkedIn</div>
+        </div>
+
+        <div class="githubIconContainer">
+          <a href="https://github.com/DerekB1999" 
+          target="_blank">
+          <img class="githubIcon" src="images/github.png">
+          <div class="tooltip">GitHub</div>
+          </a>
+        </div>
+
+        <div class="resumeIconContainer">
+          <a href="Files/DerekBarbosa_Resume.pdf"
+          target="_blank">
+          <img class="resumeIcon" src="images/resume.png">
+          <div class="tooltip">Resume</div>
+          </a>
+        </div>
+
+        <a href="mailto:derekbarbosa08@yahoo.com" class="emailIconContainer">
+          <img class="emailIcon" src="images/mail.png">
+          <div class="tooltip">Email Me</div>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="description">
+        <div class="pictureContainer">
+          <div class="leftLine"></div>
+          <img class="profilePic" src="images/suitPfp.png">
+          <div class="rightLine"></div>
+        </div>
+        <div class="paragraph">
+          <p>
+            Hello! My name is Derek Barbosa. I am currently a senior at the University of Massachusetts Amherst pursuing a degree in Computer Science. 
+            I am very interested in full-stack development and databases. However, I also love learning new things and exploring new areas within 
+            computer science.
+          </p>
+        </div>
+      </section>
+
+      <details class="projectDropdown">
+        <summary>Projects</summary>
+
+        <div class="dropdownContent">
+          <a href="https://github.com/DerekB1999/Trailies-WebApp" target="_blank">
+            Trailies Web-Application
+          </a>
+          <p>
+            This is a full-stack web application that I designed. This app was designed to provide students with a way to discover trails 
+            near the university. The app allows users to create an account and log in. Upon login, users will see a dashboard of nearby 
+            trails with directions and additional information about each trail. User can click on trails to view reviews and ratings, or 
+            leave a review and rating of their own.
+          </p>
+        </div>
+      </details>
+
+      <details class="projectDropdown">
+        <summary>About Me</summary>
+
+        <div class="dropdownContent">
+          <p>
+            I enjoy staying physically active and maintaining a healthy lifestyle. I began my fitness journey in 2018 and have since made consistent 
+            exercise and healthy eating an important part of my daily routine. I especially enjoy walking, whether it's around campus or out on a hike,
+            it's one of my favorite ways to stay active and clear my mind.
+          </p>
+        </div>
+      </details>
+
+    </main>
+    </div>
+  </body>
+</html>

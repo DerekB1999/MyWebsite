@@ -1,0 +1,56 @@
+.projectDropdown{
+  width: 350px;
+  margin: 40px auto;
+  text-align: center;
+  transition: width 0.25s ease;
+}
+
+.projectDropdown[open] {
+  width: 650px;
+}
+
+.projectDropdown summary {
+  list-style: none;
+  padding: 25px;
+  font-size: 50px;
+  border: 3px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.projectDropdown[open] summary{
+  background-color: black;
+  color: white;
+}
+
+.dropdownContent {
+  overflow: hidden;
+  max-height: 0;
+  margin-top: 0;
+  padding: 0 10px;
+  transition: max-height 0.5s ease, margin-top 0.5s ease;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.projectDropdown[open] .dropdownContent{
+  margin-top: 3px;
+  max-height: 500px;
+  border-top: none;
+  background-color: black;
+  color: white;
+}
+
+.dropdownContent a {
+  display: block;
+  padding: 12px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+.dropdownContent p{
+  margin-top: 0px;
+}

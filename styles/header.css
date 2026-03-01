@@ -1,0 +1,79 @@
+.header{
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  height: 120px;
+}
+.nameContainer{
+  width: 320px;
+  height: 100px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: black;
+}
+.firstName{
+  padding-left: 60px;
+}
+.lastName{
+  padding-left: 120px;
+}
+.links{
+  padding-left: 15px;
+  padding-right: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+.linkedinIconContainer,
+.githubIconContainer,
+.resumeIconContainer,
+.emailIconContainer{
+  height: 70px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.links .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 6px 8px;
+  font-size: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -40px;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.linkedinIconContainer:hover .tooltip,
+.githubIconContainer:hover .tooltip,
+.resumeIconContainer:hover .tooltip,
+.emailIconContainer:hover .tooltip{
+  opacity: 1;
+}
+.linkedinIcon,
+.githubIcon{
+  height: 68px;
+}
+.resumeIcon{
+  height: 92px;
+}
+.emailIcon{
+  height: 94px;
+}
+.firstName,
+.lastName{
+  display: block;
+  font-size: 46px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+}
