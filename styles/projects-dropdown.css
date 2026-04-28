@@ -81,10 +81,3 @@
 .dropdownContent p{
   margin-top: 0px;
 }
-
-.dropdownContent .disclaimer {
-  font-size: 13px;
-  font-style: italic;
-  color: gray;
-  margin-bottom: 8px;
-}
