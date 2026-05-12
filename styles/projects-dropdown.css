@@ -78,6 +78,13 @@
   font-size: 18px;
 }
 
+.dropdownContent span {
+  display: block;
+  padding: 12px;
+  color: white;
+  font-size: 18px;
+}
+
 .dropdownContent p{
   margin-top: 0px;
 }
